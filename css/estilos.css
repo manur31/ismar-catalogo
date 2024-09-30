@@ -114,13 +114,20 @@ section {
 
 
         view-timeline-name: --producto;
+        -webkit-view-timeline-name: --producto;
         view-timeline-axis: block;
+        -webkit-timeline-axis: block;
 
         animation-timeline: --producto;
+        -webkit-animation-timeline: --producto;
         animation-name: mostrar;
+        -webkit-animation-name: mostrar;
 
         animation-range: entry 25% cover 50%;
+        -webkit-animation-range: entry 25% cover 50%;
         animation-fill-mode: both;
+        -webkit-animation-fill-mode: both;
+        
     }
 
         .producto img {
@@ -173,6 +180,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 20px;
     padding: 50px;
     margin-top: -200px;
@@ -182,6 +190,9 @@ footer {
         width: 50px;
         height: 50px;
         color: #194569;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
         footer a .fa-2xl {
@@ -211,11 +222,101 @@ footer {
 }
 
 
-
-
 /* Responsive Table (768px - 1024px) */
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    header {
+        width: 100%;
+        height: 40vh;
+        padding: 20px;
+        margin: 0;
+        position: relative;
+    }
+    
+        .logo {
+            width: 50%;
+            height: 30%;
+        }
+    
+        .logo svg {
+            width: 200px;
+            height: 150px;
+        }
+
+    section {
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+        height: 50vh;
+        margin: 150px auto 250px auto;
+        padding: 0;
+    }
+    
+        .descripcion-Ismar {
+            width: 80%;
+            height: 300px;
+            padding: 60px;
+            border-radius: 0 0 20px 20px;
+        }
+
+            .descripcion-Ismar h1 {
+                font-size: 34px;
+            }
+    
+            .descripcion-Ismar p {
+                font-size: 16px;
+            }
+    
+        .foto-perfil {
+            width:  80%;
+            height: 350px;
+            border-radius: 20px 20px 0 0;
+        }
+    
+            .foto-perfil img {
+                object-fit: cover;
+            }
+
+    .contenedor-productos {
+        grid-template-columns: 1fr 1fr;
+        margin: 75px 100px;
+        gap: 175px 30px;
+    }
+
+    .producto {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        height: 250px;
+        background-color: #5F84A2;
+        border-radius: 5px;
+        padding: 150px 30px 0 30px;
+    }
+
+    .producto img {
+        width: 200px;
+        height: 200px;
+        top: -100px;
+    }
+
+    .producto .detalles-producto {
+        margin-top: -25px;
+        gap: 12px;
+        text-align: center;
+    }
+
+    .producto .btn-comprar {
+        bottom: -20px;
+        padding: 10px 35px;
+        font-size: 16px;
+    }
+
+    footer {
+        margin-top: 50px;
+    }
 
 }
 
@@ -246,7 +347,7 @@ footer {
         justify-content: center;
         align-content: center;
         width: 100%;
-        height: 60vh;
+        height: 45vh;
         margin: 150px auto 250px auto;
         padding: 0;
     }
@@ -275,7 +376,7 @@ footer {
     .contenedor-productos {
         grid-template-columns: 1fr;
         margin: auto;
-        gap: 250px;
+        gap: 200px;
     }
 
     .producto {
@@ -308,7 +409,8 @@ footer {
     }
 
     footer {
-        margin-top: 150px;
+        margin-top: 100px;
+        padding: 75px 50px;
     }
 
 }

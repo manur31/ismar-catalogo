@@ -403,9 +403,10 @@ contenedorProductos.addEventListener('click', e => {
         };
 
         var url = 'https://wa.me/' + number + '?text='
-        +'Saludos, me gustaria comprar:' + '%0a'
-        +'*Nombre:* ' +infoProducto.nombre+ '%0a'
-        +'*Precio:* ' +infoProducto.precio+ '%0a';
+        +'¡Hola! Me interesa comprar:' + '%0a'
+        +'*Producto:* ' +infoProducto.nombre+ '%0a'
+        +'*Precio:* ' +infoProducto.precio+ '%0a' + '%0a'
+        +'Agradezco cualquier información adicional sobre la compra o el envío. ¡Quedo atento/a!' + '%0a';
 
         window.open(url, '_blank').focus();
     }
