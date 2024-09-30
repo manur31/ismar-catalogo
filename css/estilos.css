@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 500ms ease-in-out;
+    text-decoration: none;
+}
+
+body {
+    background-color: #FDE8DA;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 60dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+    header img {
+        z-index: -1;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .logo {
+        background-color: rgba(255, 255, 255, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo svg {
+        width: 400px;
+        height: 300px;
+    }
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    padding: 0 150px;
+    height: 60vh;
+    margin: 200px auto;
+}
+
+    .descripcion-Ismar {
+        width: 50%;
+        height: 400px;
+        padding: 10px 60px;
+        background-color: #194569;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        border: none;
+        border-radius: 20px 0 0 20px;
+    }
+
+        .descripcion-Ismar h1 {
+            font-size: 24px;
+            color: #fff;
+        }
+
+        .descripcion-Ismar p {
+            text-align: justify;
+            font-weight: 500;
+            color: #fff;
+        }
+
+    .foto-perfil {
+        width:  30%;
+        height: 550px;
+        border: none;
+        border-radius: 30px;
+        overflow: hidden;
+    }
+
+        .foto-perfil img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+.contenedor-productos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    justify-items: center;
+    margin: 400px 200px;
+    gap: 200px 50px;
+}
+
+    .producto {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 350px;
+        height: 300px;
+        background-color: #5F84A2;
+        border-radius: 5px;
+        padding-top: 150px;
+
+
+        view-timeline-name: --producto;
+        view-timeline-axis: block;
+
+        animation-timeline: --producto;
+        animation-name: mostrar;
+
+        animation-range: entry 25% cover 50%;
+        animation-fill-mode: both;
+    }
+
+        .producto img {
+            border-radius: 100%;
+            border: 5px solid #5F84A2;
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            position: absolute;
+            top: -120px;
+        }
+
+        .producto .detalles-producto {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+            .producto .detalles-producto h3 {
+                font-weight: 500;
+                color: #FFFFFF;
+            } 
+
+            .producto .detalles-producto p {
+                font-weight: 600;
+                color: #ffffff;
+            }
+
+
+        .producto .btn-comprar {
+            position: absolute;
+            bottom: -30px;
+            border: 2px solid #194569;
+            padding: 20px 75px;
+            font-weight: 600;
+            font-size: 20px;
+            border-radius: 30px;
+            background-color: #ffffff;
+            color: #194569;
+        }
+            .producto .btn-comprar:hover {
+                background-color: #194569;
+                color: #fff;
+                cursor: pointer;
+            }
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+    margin-top: -200px;
+}
+
+    footer a {
+        width: 50px;
+        height: 50px;
+        color: #194569;
+    }
+
+        footer a .fa-2xl {
+            font-size: 3em;
+        }
+
+
+    footer p {
+        font-size: 16px;
+        color: rgb(80, 79, 79);
+        text-align: center;
+    }
+
+/* Animaciones */
+
+
+@keyframes mostrar {
+    from {
+        opacity: 0;
+        scale: 50%;
+    }
+
+    to {
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
+
+
+
+/* Responsive Table (768px - 1024px) */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+/* Responsive Phone (768px - 1024px) */
+
+@media screen and (max-width: 767px) {
+
+
+    header {
+        width: 100%;
+        height: 40vh;
+        padding: 20px;
+        margin: 0;
+        position: relative;
+    }
+    
+        .logo {
+            width: 50%;
+            height: 30%;
+        }
+    
+        .logo svg {
+            width: 200px;
+            height: 150px;
+        }
+
+    section {
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+        height: 60vh;
+        margin: 150px auto 250px auto;
+        padding: 0;
+    }
+    
+        .descripcion-Ismar {
+            width: 80%;
+            height: 250px;
+            padding: 40px;
+            border-radius: 0 0 20px 20px;
+        }
+    
+            .descripcion-Ismar p {
+                font-size: 12px;
+            }
+    
+        .foto-perfil {
+            width:  80%;
+            height: 250px;
+            border-radius: 20px 20px 0 0;
+        }
+    
+            .foto-perfil img {
+                object-fit: cover;
+            }
+
+    .contenedor-productos {
+        grid-template-columns: 1fr;
+        margin: auto;
+        gap: 250px;
+    }
+
+    .producto {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        height: 250px;
+        background-color: #5F84A2;
+        border-radius: 5px;
+        padding-top: 150px;
+    }
+
+    .producto img {
+        width: 200px;
+        height: 200px;
+        top: -100px;
+    }
+
+    .producto .detalles-producto {
+        margin-top: -25px;
+        gap: 8px;
+    }
+
+    .producto .btn-comprar {
+        bottom: -20px;
+        padding: 10px 35px;
+        font-size: 16px;
+    }
+
+    footer {
+        margin-top: 150px;
+    }
+
+}
