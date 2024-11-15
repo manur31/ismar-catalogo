@@ -31,67 +31,67 @@ const productos = [
         }
     },
 
-    // Anillos
-    // {
-    //     id: 'ANR3-24',
-    //     imagen: '/recursos/imgs/',
-    //     nombre: 'Anillo Perla',
-    //     precio: 320,
-    //     categoria: {
-    //         nombre: 'Anillos',
-    //         id: 'anillos'
-    //     }
-    // },
-    // {
-    //     id: 'ANR3-22',
-    //     imagen: '/recursos/imgs/',
-    //     nombre: 'Anillo Concha',
-    //     precio: 350,
-    //     categoria: {
-    //         nombre: 'Anillos',
-    //         id: 'anillos'
-    //     }
-    // },
-    // {
-    //     id: 'ANR3-22',
-    //     imagen: '/recursos/imgs/',
-    //     nombre: 'Anillo Sofistique',
-    //     precio: 300,
-    //     categoria: {
-    //         nombre: 'Anillos',
-    //         id: 'anillos'
-    //     }
-    // },
-    // {
-    //     id: 'ANR2-9',
-    //     imagen: '/recursos/imgs/',
-    //     nombre: 'Anillo Nudo',
-    //     precio: 300,
-    //     categoria: {
-    //         nombre: 'Anillos',
-    //         id: 'anillos'
-    //     }
-    // },
-    // {
-    //     id: 'ANR2-12',
-    //     imagen: '/recursos/imgs/',
-    //     nombre: 'Anillo Aros de Oro',
-    //     precio: 270,
-    //     categoria: {
-    //         nombre: 'Anillos',
-    //         id: 'anillos'
-    //     }
-    // },
-    // {
-    //     id: 'ANR2-48',
-    //     imagen: '/recursos/imgs/',
-    //     nombre: 'Anillo Corazon de Plata',
-    //     precio: 300,
-    //     categoria: {
-    //         nombre: 'Anillos',
-    //         id: 'anillos'
-    //     }
-    // },
+     //Anillos
+     {
+         id: 'ANR3-24',
+         imagen: '/recursos/imgs/IMG_9635.JPG',
+         nombre: 'Anillo Perla',
+         precio: 320,
+         categoria: {
+             nombre: 'Anillos',
+             id: 'anillos'
+         }
+     },
+     {
+         id: 'ANR3-22',
+         imagen: '/recursos/imgs/IMG_9637.JPG',
+         nombre: 'Anillo Concha',
+         precio: 350,
+         categoria: {
+             nombre: 'Anillos',
+             id: 'anillos'
+         }
+     },
+         {
+            id: 'ANR3-22',
+            imagen: '/recursos/imgs/IMG_9632.JPG',
+            nombre: 'Anillo Sofistique',
+            precio: 300,
+            categoria: {
+                nombre: 'Anillos',
+                id: 'anillos'
+            }
+        },
+     {
+         id: 'ANR2-9',
+         imagen: '/recursos/imgs/IMG_8651.JPG',
+         nombre: 'Anillo Nudo',
+         precio: 300,
+         categoria: {
+             nombre: 'Anillos',
+             id: 'anillos'
+         }
+     },
+     {
+         id: 'ANR2-12',
+         imagen: '/recursos/imgs/IMG_9634.JPG',
+         nombre: 'Anillo Aros de Oro',
+         precio: 270,
+         categoria: {
+             nombre: 'Anillos',
+             id: 'anillos'
+         }
+     },
+     {
+         id: 'ANR2-48',
+         imagen: '/recursos/imgs/IMG_9631.JPG',
+         nombre: 'Anillo Corazon de Plata',
+         precio: 300,
+         categoria: {
+            nombre: 'Anillos',
+            id: 'anillos'
+         }
+     },
 
     // Earcof
     {
@@ -228,16 +228,16 @@ const productos = [
             id: 'aretes'
         }
     },
-    // {
-    //     id: 'TPR1-2',
-    //     imagen: '/recursos/imgs/',
-    //     nombre: 'Gota de Oro Mediana',
-    //     precio: 300,
-    //     categoria: {
-    //         nombre: 'Aretes',
-    //         id: 'aretes'
-    //     }
-    // },
+    {
+        id: 'TPR1-2',
+        imagen: '/recursos/imgs/IMG_9647.JPG',
+        nombre: 'Gota de Oro Mediana',
+        precio: 300,
+        categoria: {
+            nombre: 'Aretes',
+            id: 'aretes'
+        }
+    },
     {
         id: 'TPR1-3',
         imagen: '/recursos/imgs/IMG_8512.JPG',
@@ -249,17 +249,18 @@ const productos = [
         }
     },
 
-    // Maxi Topos
-    // {
-    //     id: 'TPR5-1',
-    //     imagen: '/recursos/imgs/',
-    //     nombre: 'Corazon de Febrero',
-    //     precio: 350,
-    //     categoria: {
-    //         nombre: 'Maxi Topos',
-    //         id: 'maxi-topos'
-    //     }
-    // },
+    //Maxi Topos
+
+    {
+        id: 'TPR5-1',
+        imagen: '/recursos/imgs/IMG_9646.JPG',
+        nombre: 'Corazon de Febrero',
+        precio: 350,
+        categoria: {
+            nombre: 'Maxi Topos',
+            id: 'maxi-topos'
+        }
+    },
     {
         id: 'TPR5-2',
         imagen: '/recursos/imgs/IMG_8572.JPG',
@@ -302,16 +303,16 @@ const productos = [
             id: 'cadenas'
         }
     },
-    // {
-    //     id: 'CDG1',
-    //     imagen: '/recursos/imgs/',
-    //     nombre: 'Cadena Corazoncito de Plata',
-    //     precio: 450,
-    //     categoria: {
-    //         nombre: 'Cadenas',
-    //         id: 'cadenas'
-    //     }
-    // },
+    {
+        id: 'CDG1',
+        imagen: '/recursos/imgs/IMG_9657.JPG',
+        nombre: 'Cadena Corazoncito de Plata',
+        precio: 450,
+        categoria: {
+            nombre: 'Cadenas',
+            id: 'cadenas'
+        }
+    },
     // {
     //     id: 'CDR3-',
     //     imagen: '/recursos/imgs/',
@@ -322,16 +323,16 @@ const productos = [
     //         id: 'cadenas'
     //     }
     // },
-    // {
-    //     id: 'CDR3',
-    //     imagen: '/recursos/imgs/',
-    //     nombre: 'Cadena Nudos de Amor',
-    //     precio: 300,
-    //     categoria: {
-    //         nombre: 'Cadenas',
-    //         id: 'cadenas'
-    //     }
-    // },
+    {
+        id: 'CDR3',
+        imagen: '/recursos/imgs/IMG_9659.JPG',
+        nombre: 'Cadena Nudos de Amor',
+        precio: 300,
+        categoria: {
+            nombre: 'Cadenas',
+            id: 'cadenas'
+        }
+    },
     // {
     //     id: 'CDR1',
     //     imagen: '/recursos/imgs/',
@@ -352,16 +353,16 @@ const productos = [
     //         id: 'cadenas'
     //     }
     // },
-    {
-        id: 'CDCF',
-        imagen: '/recursos/imgs/IMG_8663.JPG',
-        nombre: 'Cadena Cafecito',
-        precio: 450,
-        categoria: {
-            nombre: 'Cadenas',
-            id: 'cadenas'
-        }
-    },
+    // {
+    //     id: 'CDCF',
+    //     imagen: '/recursos/imgs/IMG_8663.JPG',
+    //     nombre: 'Cadena Cafecito',
+    //     precio: 450,
+    //     categoria: {
+    //         nombre: 'Cadenas',
+    //         id: 'cadenas'
+    //     }
+    // },
 ]
 
 
