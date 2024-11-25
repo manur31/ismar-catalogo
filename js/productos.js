@@ -327,7 +327,7 @@ const productos = [
         id: 'CDR3',
         imagen: '/recursos/imgs/IMG_9659.JPG',
         nombre: 'Cadena Nudos de Amor',
-        precio: 300,
+        precio: 550,
         categoria: {
             nombre: 'Cadenas',
             id: 'cadenas'
